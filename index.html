@@ -20,7 +20,7 @@
                     <option value="" disabled selected>Pick a task type</option>
                     <option value="Print">Print</option>
                     <option value="Web">Web</option>
-                    <option value="Mobule">Mobile</option>
+                    <option value="Mobile">Mobile</option>
                 </select>
             </div>
             <div class = "form-group">
@@ -28,10 +28,21 @@
             </div>
         </form>
     </header>
-    <main class="page-content">
+    <main class="page-content" id="page-content">
+        <!-- Tasks to Do-->
         <section class="task-list-wrapper">
-            <h2 class="list-title">Task To Do</h2>
+            <h2 class="list-title">Tasks To Do</h2>
             <ul class="task-list" id="tasks-to-do"></ul>
+        </section>
+        <!-- Tasks in Progress-->
+        <section class="task-list-wrapper">
+            <h2 class="list-title">Tasks in Progress</h2>
+            <ul class="task-list" id="tasks-in-progress"></ul>
+        </section>
+        <!-- Tasks Completed-->
+        <section class="task-list-wrapper">
+            <h2 class="list-title">Tasks Completed</h2>
+            <ul class="task-list" id="tasks-completed"></ul>
         </section>
     </main>
     <footer>
